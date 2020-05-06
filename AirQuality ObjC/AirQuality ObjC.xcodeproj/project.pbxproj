@@ -13,6 +13,10 @@
 		620C4FCE2385DBF9001500FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCC2385DBF9001500FE /* LaunchScreen.storyboard */; };
 		620C4FD12385DBF9001500FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C4FD02385DBF9001500FE /* main.m */; };
 		78893E8524635EAC001728A5 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78893E8424635EAC001728A5 /* main.storyboard */; };
+		78893E8824635FBA001728A5 /* WBBPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 78893E8724635FBA001728A5 /* WBBPollution.m */; };
+		78893E8B24636F04001728A5 /* WBBWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 78893E8A24636F04001728A5 /* WBBWeather.m */; };
+		78893E8E2463717E001728A5 /* WBBCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 78893E8D2463717E001728A5 /* WBBCityAirQuality.m */; };
+		78893E912463769F001728A5 /* WBBCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78893E902463769F001728A5 /* WBBCityAirQualityController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		620C4FCF2385DBF9001500FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		620C4FD02385DBF9001500FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78893E8424635EAC001728A5 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		78893E8624635FBA001728A5 /* WBBPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBPollution.h; sourceTree = "<group>"; };
+		78893E8724635FBA001728A5 /* WBBPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBPollution.m; sourceTree = "<group>"; };
+		78893E8924636F04001728A5 /* WBBWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBWeather.h; sourceTree = "<group>"; };
+		78893E8A24636F04001728A5 /* WBBWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBWeather.m; sourceTree = "<group>"; };
+		78893E8C2463717E001728A5 /* WBBCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBCityAirQuality.h; sourceTree = "<group>"; };
+		78893E8D2463717E001728A5 /* WBBCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBCityAirQuality.m; sourceTree = "<group>"; };
+		78893E8F2463769F001728A5 /* WBBCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBCityAirQualityController.h; sourceTree = "<group>"; };
+		78893E902463769F001728A5 /* WBBCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBCityAirQualityController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,12 @@
 		78893E8024635E71001728A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				78893E8624635FBA001728A5 /* WBBPollution.h */,
+				78893E8724635FBA001728A5 /* WBBPollution.m */,
+				78893E8924636F04001728A5 /* WBBWeather.h */,
+				78893E8A24636F04001728A5 /* WBBWeather.m */,
+				78893E8C2463717E001728A5 /* WBBCityAirQuality.h */,
+				78893E8D2463717E001728A5 /* WBBCityAirQuality.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,6 +126,8 @@
 		78893E8224635E83001728A5 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78893E8F2463769F001728A5 /* WBBCityAirQualityController.h */,
+				78893E902463769F001728A5 /* WBBCityAirQualityController.m */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -145,9 +165,9 @@
 		620C4FB32385DBF6001500FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DVM;
+				CLASSPREFIX = WBB;
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = "RYAN GREENBURG";
+				ORGANIZATIONNAME = "BRYCE BRADSHAW";
 				TargetAttributes = {
 					620C4FBA2385DBF6001500FE = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -193,7 +213,11 @@
 			files = (
 				620C4FC02385DBF6001500FE /* AppDelegate.m in Sources */,
 				620C4FD12385DBF9001500FE /* main.m in Sources */,
+				78893E8824635FBA001728A5 /* WBBPollution.m in Sources */,
+				78893E8E2463717E001728A5 /* WBBCityAirQuality.m in Sources */,
 				620C4FC32385DBF6001500FE /* SceneDelegate.m in Sources */,
+				78893E912463769F001728A5 /* WBBCityAirQualityController.m in Sources */,
+				78893E8B24636F04001728A5 /* WBBWeather.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
